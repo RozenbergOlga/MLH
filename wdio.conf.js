@@ -20,21 +20,13 @@ exports.config = {
     }],
 
     logLevel: 'info',
-
     bail: 0,
-
     baseUrl: 'https://qa-apps.netlify.app/app_my_hero',
-
     waitforTimeout: 10000,
-
     connectionRetryTimeout: 120000,
-
     connectionRetryCount: 3,
-
     services: ['selenium-standalone'],
-    
     framework: 'mocha',
-
     reporters: ['spec','dot',['allure', {outputDir: 'allure-results'}]],
 
     mochaOpts: {
