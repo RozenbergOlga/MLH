@@ -17,14 +17,17 @@ describe('My Little Hero', function () { //define suite title by passing a strin
             const label = $$('.ant-form-item-required')[0].isDisplayed();
             expect(label).toEqual(true);
         });
+
         it('TC-003 Label for gender', function () {
             const label = $$('.ant-form-item-required')[1].isDisplayed();
             expect(label).toEqual(true);
         });
+
         it('TC-004 Label for age', function () {
             const label = $$('.ant-form-item-required')[2].isDisplayed();
             expect(label).toEqual(true);
         });
+
         it('TC-005 Label for story', function () {
             const label = $$('.ant-form-item-required')[3].isDisplayed();
             expect(label).toEqual(true);
