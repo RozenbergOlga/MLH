@@ -3,7 +3,8 @@ exports.config = {
     runner: 'local',
 
     specs: [
-        './test/*.js'
+        './test/smoke/*.js',
+        './test/regression/*.js'
     ],
 
     exclude: [
@@ -19,7 +20,7 @@ exports.config = {
         acceptInsecureCerts: true
     }],
 
-    logLevel: 'info',
+    logLevel: 'silent',
     bail: 0,
     baseUrl: 'https://qa-apps.netlify.app/app_my_hero',
     waitforTimeout: 10000,
