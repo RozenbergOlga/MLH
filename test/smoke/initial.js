@@ -1,5 +1,4 @@
 const sel = require('../../data/selectors.json');
-
 const exp = require('../../data/expected.json');
 
 describe('My Little Hero', function () {
@@ -30,10 +29,7 @@ describe('My Little Hero', function () {
             expect(label).toEqual(true);
         });
 
-        it('TC-005 Label for story', function () {
-            const label = $$(sel.label)[3].isDisplayed();
-            expect(label).toEqual(true);
-        });
+
     });
 
 });
