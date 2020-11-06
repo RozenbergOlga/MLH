@@ -1,11 +1,15 @@
 {
+  "homePage": "https://qa-apps.netlify.app/app_my_hero",
   "header": "h3",
   "description": "p",
   "label": ".ant-form-item-required",
   "name": "#name",
-  "gender": ".ant-radio-wrapper",
+  "gender": ".ant-radio",
   "age": "#age",
-  "story": ".ant-select-selection-search",
-  "button": ".ant-btn"
+  "story": ".ant-select-selector",
+  "storyClick": ".ant-select-show-arrow",
+  "storyType": ".ant-select-item-option",
+  "button": ".ant-btn",
+  "image": "//label[contains(text(),'5. Upload an image (optional)')]"
 
 }

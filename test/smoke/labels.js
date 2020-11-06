@@ -6,7 +6,7 @@ describe('My Little Hero', function () {
     describe('Getting to the page', function () {
 
         it('TC-001 Title is correct ', function () {
-            browser.url('https://qa-apps.netlify.app/app_my_hero');
+            browser.url(sel.homePage);
             let title = browser.getTitle();
             expect(title).toEqual('MLH trial');
         });
