@@ -9,7 +9,6 @@ describe('Checking the main functionality', function () {
             const inputName = $(sel.name).setValue("ladyBug");
             const inputGender = $$(sel.gender)[1].click();
             const inputAge = $(sel.age).setValue(123);
-            const
             const name = $(sel.name).isDisplayed();
             expect(name).toEqual(true);
         });
