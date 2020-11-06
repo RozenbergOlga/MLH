@@ -3,11 +3,14 @@ exports.config = {
     runner: 'local',
 
     specs: [
-        './test/smoke/*.js',
-        './test/regression/*.js'
+        './test/smoke/inputs.js',
+        './test/smoke/labels.js',
+        './test/smoke/mainFunctionality.js'
     ],
 
     exclude: [
+        './test/smoke/inputs.js',
+        './test/smoke/labels.js'
 
     ],
 
