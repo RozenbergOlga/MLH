@@ -9,8 +9,10 @@ describe('Checking the main functionality', function () {
             const inputName = $(sel.name).setValue("ladyBug");
             const inputGender = $$(sel.gender)[1].click();
             const inputAge = $(sel.age).setValue(123);
-            const name = $(sel.name).isDisplayed();
-            expect(name).toEqual(true);
+            const click = $(sel.storyClick).click();
+            const inputStory = $$(sel.storyType)[6].click();
+            const create = $(sel.create).isEnabled();
+            expect(create).toEqual(true);
         });
     });
 });
