@@ -6,11 +6,14 @@ exports.config = {
         './test/smoke/inputs.js',
         './test/smoke/labels.js',
         './test/smoke/mainFunctionality.js'
+
     ],
 
     exclude: [
-        //'./test/smoke/inputs.js',
-       // './test/smoke/labels.js'
+       './test/smoke/inputs.js',
+        './test/smoke/labels.js',
+        //'./test/smoke/mainFunctionality.js'
+
 
     ],
 

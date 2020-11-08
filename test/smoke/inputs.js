@@ -1,7 +1,6 @@
 const sel = require('../../data/selectors.json');
 const exp = require('../../data/expected.json');
-const path = require('path');
-const inputValues4 = require('../../helpers/inputValues4');
+
 
 describe('Inputs', function () {
 
@@ -36,28 +35,6 @@ describe('Inputs', function () {
         it('TC-019 story', function () {
             const story = $(sel.story).isDisplayed();
             expect(story).toEqual(true);
-        });
-
-        it.only('TC-019 upload an image', function () {
-            browser.url(sel.homePage);
-            inputValues4(data.name, data.gender.she, data.age, data.storyType);
-            $(sel.imageInput).setValue("foto1");
-            $(sel.create).click();
-            const inputDiv = $('.ant-upload input');
-            const submitBtn = $(sel.create);
-            const filePath = path.join(__dirname, '../data/foto1.png');
-            const remotePath = browser.uploadFile(filePath);
-            browser.execute(function () {
-                document.getElementsByTagName('input')[6].style.display = "block";
-
-            });
-            inputDiv.waitForDisplayed();
-            browser.pause(9000);
-            inputDiv.setValue(remotePath);
-            browser.pause(9000);
-            submitBtn.click();
-            browser.pause(9000);
-
         });
 
         it('TC-020 Create ', function () {

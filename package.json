@@ -6,7 +6,6 @@
   "scripts": {
     "test": "wdio wdio.conf.js"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,11 +19,12 @@
     "@wdio/spec-reporter": "^6.6.8",
     "@wdio/sync": "^6.6.7"
   },
-
   "dependencies": {
+    "-": "0.0.1",
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
-    "@babel/register": "^7.12.1"
+    "@babel/register": "^7.12.1",
+    "g": "^2.0.1"
   }
 }
