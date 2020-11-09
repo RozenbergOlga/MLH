@@ -2,6 +2,7 @@ const sel = require('../../data/selectors.json');
 const exp = require('../../data/expected.json');
 const data = require('../../data/testData.json');
 const inputValues4 = require('../../helpers/inputValues4');
+const inputValues4click = require('../../helpers/inputValues4click');
 
 
 describe('Checking the main functionality', function () {
@@ -169,8 +170,7 @@ describe('Checking the main functionality', function () {
 
         it('TC-023 gender she is working ', function () {
             browser.url(sel.homePage);
-            inputValues4(data.name, data.gender.she, data.age, data.storyType.Comedy);
-            $(sel.create).click();
+            inputValues4click(data.name, data.gender.she, data.age, data.storyType.Comedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
