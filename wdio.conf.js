@@ -5,14 +5,16 @@ exports.config = {
     specs: [
         './test/smoke/inputs.js',
         './test/smoke/labels.js',
-        './test/smoke/mainFunctionality.js'
+        './test/smoke/mainFunctionality.js',
+        './test/smoke/uploadPhoto.js'
 
     ],
 
     exclude: [
       './test/smoke/inputs.js',
-        './test/smoke/labels.js',
-        //'./test/smoke/mainFunctionality.js'
+       './test/smoke/labels.js',
+        //'./test/smoke/mainFunctionality.js',
+        './test/smoke/uploadPhoto.js'
 
 
     ],
