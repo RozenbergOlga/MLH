@@ -223,7 +223,7 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it.only('TC-031 gender he is working in story Tragedy', function () {
+        it('TC-031 gender he is working in story Tragedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType.Tragedy);
             const btn = $(sel.tryAgain).isDisplayed();
