@@ -167,21 +167,21 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it('TC-023 gender she is working in story Comedy', function () {
+        xit('TC-023 gender she is working in story Comedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType.Comedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-024 gender it is working in story Comedy ', function () {
+        xit('TC-024 gender it is working in story Comedy ', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType.Comedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-025 gender he is working in story Quest', function () {
+        xit('TC-025 gender he is working in story Quest', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType.Quest);
             const btn = $(sel.tryAgain).isDisplayed();
@@ -195,21 +195,21 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it('TC-027 gender it is working in story Quest ', function () {
+        xit('TC-027 gender it is working in story Quest ', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType.Quest);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-028 gender he is working in story Rebirth ', function () {
+        xit('TC-028 gender he is working in story Rebirth ', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType.Rebirth);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-029 gender she is working in story Rebirth', function () {
+        xit('TC-029 gender she is working in story Rebirth', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType.Rebirth);
             const btn = $(sel.tryAgain).isDisplayed();
@@ -223,28 +223,28 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it.only('TC-031 gender he is working in story Tragedy', function () {
+        it('TC-031 gender he is working in story Tragedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType.Tragedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-032 gender she is working in story Tragedy', function () {
+        xit('TC-032 gender she is working in story Tragedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType.Tragedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-033 gender it is working in story Tragedy', function () {
+        xit('TC-033 gender it is working in story Tragedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType.Tragedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-034 gender he is working in story Rags and Riches', function () {
+        xit('TC-034 gender he is working in story Rags and Riches', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType["Rags and Riches"]);
             const btn = $(sel.tryAgain).isDisplayed();
@@ -258,21 +258,21 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it('TC-036 gender it is working in story Rags and Riches', function () {
+        xit('TC-036 gender it is working in story Rags and Riches', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType["Rags and Riches"]);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-037 gender he is working in story Overcoming the Monster', function () {
+        xit('TC-037 gender he is working in story Overcoming the Monster', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType["Overcoming the Monster"]);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-038 gender she is working in story Overcoming the Monster', function () {
+        xit('TC-038 gender she is working in story Overcoming the Monster', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType["Overcoming the Monster"]);
             const btn = $(sel.tryAgain).isDisplayed();
@@ -293,14 +293,14 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it('TC-041 gender she is working in story Journey and Return', function () {
+        xit('TC-041 gender she is working in story Journey and Return', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType["Journey and Return"]);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-042 gender it is working in story Journey and Return', function () {
+        xit('TC-042 gender it is working in story Journey and Return', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType["Journey and Return"]);
             const btn = $(sel.tryAgain).isDisplayed();
