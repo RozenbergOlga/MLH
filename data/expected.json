@@ -8,5 +8,9 @@
   "placeholderName": "Hero's name",
   "genderHe": "he",
   "genderShe": "she",
-  "genderIt": "it"
+  "genderIt": "it",
+
+  "checkAge": ["123", "two", "three", "four", "five", "six",
+                "seven", "eigth", "nine", "ten"]
 }
+
