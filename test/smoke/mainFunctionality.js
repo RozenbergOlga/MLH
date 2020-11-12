@@ -167,7 +167,7 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it('TC-023 gender she is working in story Comedy', function () {
+       it('TC-023 gender she is working in story Comedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType.Comedy);
             const btn = $(sel.tryAgain).isDisplayed();
@@ -216,14 +216,14 @@ describe('Checking the main functionality', function () {
             expect(btn).toEqual(true);
         });
 
-        it('TC-030 gender it is working in story Rebirth', function () {
+        xit('TC-030 gender it is working in story Rebirth', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType.Rebirth);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
 
-        it('TC-031 gender he is working in story Tragedy', function () {
+        xit('TC-031 gender he is working in story Tragedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType.Tragedy);
             const btn = $(sel.tryAgain).isDisplayed();
