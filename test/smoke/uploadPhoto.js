@@ -91,6 +91,7 @@ describe('Checking the main functionality', function () {
             createBtn.click();
         });
 
+
         it('TC-007  Upload photo with story Journey and Return', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.he, data.age, data.storyType["Journey and Return"]);
