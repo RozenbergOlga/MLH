@@ -91,37 +91,30 @@ describe('Inputs', function () {
             const name = $(sel.name).isClickable();
             expect (name).toEqual(true);
         });
-
         it('TC-029 gender he', function () {
             const he = $$(sel.gender)[0].isClickable();
             expect(he).toEqual(true);
         });
-
         it('TC-030 gender she', function () {
             const she = $$(sel.gender)[1].isClickable();
             expect(she).toEqual(true);
         });
-
         it('TC-031 gender it', function () {
             const it = $$(sel.gender)[2].isClickable();
             expect(it).toEqual(true);
         });
-
         it('TC-032 age', function () {
             const age = $(sel.age).isClickable();
             expect(age).toEqual(true);
         });
-
         it('TC-033 story', function () {
             const story = $(sel.story).isClickable();
             expect(story).toEqual(true);
         });
-
         it('TC-034 Image', function () {
             const image = $(sel.imageInput).isClickable();
             expect(image).toEqual(true);
         });
-
         it('TC-034 Create ', function () {
             const button = $(sel.create).isClickable();
             expect(button).toEqual(false);
