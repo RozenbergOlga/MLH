@@ -18,17 +18,14 @@ describe('My Little Hero', function () {
             const label = $(sel.header).isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-003 Label for description', function () {
             const label = $(sel.description).isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-004 Label for name', function () {
             const label = $$(sel.label)[0].isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-005 Label for gender', function () {
             const label = $$(sel.label)[1].isDisplayed();
             expect(label).toEqual(true);
