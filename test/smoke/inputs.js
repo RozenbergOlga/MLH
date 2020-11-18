@@ -45,32 +45,26 @@ describe('Inputs', function () {
             const placeholderName = $(sel.name);
             expect (placeholderName.getAttribute('placeholder'));
         });
-
         it('TC-022 gender he', function () {
             const genderHe = $$(sel.genderChoice)[0];
             expect(genderHe.getValue()).toEqual(exp.genderHe);
         });
-
         it('TC-023 gender she', function () {
             const genderShe = $$(sel.genderChoice)[1];
             expect(genderShe.getValue()).toEqual(exp.genderShe);
         });
-
         it('TC-024 gender it', function () {
             const genderIt = $$(sel.genderChoice)[2];
             expect(genderIt.getValue()).toEqual(exp.genderIt);
         });
-
         it('TC-025 age', function () {
             const placeholderAge = $(sel.age);
             expect(placeholderAge.getAttribute("placeholder"));
         });
-
         it('TC-026 story', function () {
             const placeholderStory = $(sel.story);
             expect(placeholderStory.getAttribute("placeholder"));
         });
-
         it('TC-027 Create ', function () {
             const button = $(sel.create);
             expect(button.getAttribute("placeholder"));
