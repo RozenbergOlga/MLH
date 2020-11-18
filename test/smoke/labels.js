@@ -30,12 +30,10 @@ describe('My Little Hero', function () {
             const label = $$(sel.label)[1].isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-006 Label for age', function () {
             const label = $$(sel.label)[2].isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-007 Label for story', function () {
             const label = $$(sel.label)[3].isDisplayed();
             expect(label).toEqual(true);
