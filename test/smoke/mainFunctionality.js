@@ -96,63 +96,54 @@ describe('Checking the main functionality', function () {
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-013 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.he, data.age, data.storyType.Tragedy);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-014 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.she, data.age, data.storyType.Tragedy);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-015 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.it, data.age, data.storyType.Tragedy);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-016 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.he, data.age, data.storyType["Overcoming the Monster"]);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-017 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.she, data.age, data.storyType["Overcoming the Monster"]);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-018 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.it, data.age, data.storyType["Overcoming the Monster"]);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-019 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.he, data.age, data.storyType["Rags and Riches"]);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-020 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.she, data.age, data.storyType["Rags and Riches"]);
             const create = $(sel.create).isEnabled();
             expect(create).toEqual(true);
         });
-
         it('TC-021 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.it, data.age, data.storyType["Rags and Riches"]);
