@@ -1,4 +1,5 @@
 const sel = require('../../data/selectors.json');
+
 const exp = require('../../data/expected.json');
 
 
@@ -36,7 +37,6 @@ describe('Inputs', function () {
             expect(button).toEqual(true);
         });
     });
-
 
     describe('Placeholders are correct', function () {
 
