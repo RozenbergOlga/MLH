@@ -11,7 +11,7 @@ exports.config = {
     ],
 
     exclude: [
-      './test/smoke/inputs.js',
+      //'./test/smoke/inputs.js',
        './test/smoke/labels.js',
         //'./test/smoke/mainFunctionality.js',
         './test/smoke/uploadPhoto.js'
@@ -34,7 +34,8 @@ exports.config = {
     waitforTimeout: 10000,
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
-    services: ['selenium-standalone'],
+    services: ["chromedriver"],
+
     framework: 'mocha',
     reporters: ['spec','dot',['allure', {outputDir: 'allure-results'}]],
 
