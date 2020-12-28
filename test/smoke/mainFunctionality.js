@@ -165,35 +165,30 @@ describe('Checking the main functionality', function () {
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
-
         it('TC-023 gender she is working in story Comedy', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType.Comedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
-
         it('TC-024 gender it is working in story Comedy ', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType.Comedy);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
-
         it('TC-025 gender he is working in story Quest', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.he, data.age, data.storyType.Quest);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
-
         it('TC-026 gender she is working in story Quest ', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.she, data.age, data.storyType.Quest);
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
-
         it('TC-027 gender it is working in story Quest ', function () {
             browser.url(sel.homePage);
             inputValues4click(data.name, data.gender.it, data.age, data.storyType.Quest);
