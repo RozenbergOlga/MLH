@@ -1,11 +1,7 @@
 const inputValues4 = require('../../helpers/inputValues4');
-
 const inputValues4andClick = require('../../helpers/inputValues4click');
-
 const sel = require('../../data/selectors.json');
-
 const data = require('../../data/testData.json');
-
 const path = require('path');
 
 describe('Checking the main functionality', function () {
