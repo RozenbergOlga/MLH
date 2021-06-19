@@ -1,4 +1,5 @@
 const sel = require('../../data/selectors.json');
+
 const exp = require('../../data/expected.json');
 
 describe('Inputs', function () {
@@ -42,7 +43,6 @@ describe('Inputs', function () {
     });
 
     describe('Placeholders are correct', function () {
-
         it('TC-021 name ', function () {
             browser.url(sel.homePage);
             const placeholderName = $(sel.name);
