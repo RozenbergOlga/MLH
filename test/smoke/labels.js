@@ -17,27 +17,22 @@ describe('My Little Hero', function () {
             const label = $(sel.header).isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-003 Label for description', function () {
             const label = $(sel.description).isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-004 Label for name', function () {
             const label = $$(sel.label)[0].isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-005 Label for gender', function () {
             const label = $$(sel.label)[1].isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-006 Label for age', function () {
             const label = $$(sel.label)[2].isDisplayed();
             expect(label).toEqual(true);
         });
-
         it('TC-007 Label for story', function () {
             const label = $$(sel.label)[3].isDisplayed();
             expect(label).toEqual(true);
