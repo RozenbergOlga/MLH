@@ -5,7 +5,6 @@ const data = require('../../data/testData.json');
 const path = require('path');
 
 describe('Checking the main functionality', function () {
-
     describe('Happy path', function () {
 
         it('TC-001  Upload photo with story Comedy', function () {
