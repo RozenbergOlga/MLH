@@ -6,7 +6,6 @@ const path = require('path');
 
 describe('Checking the main functionality', function () {
     describe('Happy path', function () {
-
         it('TC-001  Upload photo with story Comedy', function () {
             browser.url(sel.homePage);
             inputValues4(data.name, data.gender.he, data.age, data.storyType.Comedy);
