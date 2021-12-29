@@ -5,6 +5,7 @@ const inputValues4 = require('../../helpers/inputValues4');
 const inputValues4click = require('../../helpers/inputValues4click');
 
 describe('Checking the main functionality', function () {
+
     xdescribe('Happy path', function () {
         it('TC-001 Create button is clickable after 1-4 filled in with function ', function () {
             browser.url(sel.homePage);
