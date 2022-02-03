@@ -2,7 +2,6 @@ const sel = require('../../data/selectors.json');
 const exp = require('../../data/expected.json');
 
 describe('Inputs', function () {
-
     describe('Inputs are displayed', function () {
         it('TC-014 name ', function () {
             browser.url(sel.homePage);
