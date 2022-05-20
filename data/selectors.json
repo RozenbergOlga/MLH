@@ -11,7 +11,7 @@
   "storyType": ".ant-select-item-option",
   "create": ".ant-btn",
   "image": "//label[contains(text(),'5. Upload an image (optional)')]",
-   "genderChoice": ".ant-radio-input",
+   "genderChoice": ".ant-radio-input"
   "headerUndertext": "//div[@class='hero__form']/p",
   "imageInput": "span.ant-upload",
   "tryAgain": ".btn-primary",
@@ -24,5 +24,4 @@
   "placeholderPlus": "//*[@data-icon='plus']",
   "placeholderImage": "//*/span[@class='anticon anticon-plus']/following-sibling::div",
   "inputPhoto": ".ant-upload input"
-
 }
