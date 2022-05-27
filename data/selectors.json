@@ -24,4 +24,5 @@
   "placeholderPlus": "//*[@data-icon='plus']",
   "placeholderImage": "//*/span[@class='anticon anticon-plus']/following-sibling::div",
   "inputPhoto": ".ant-upload input"
+
 }
